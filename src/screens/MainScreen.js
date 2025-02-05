@@ -22,9 +22,9 @@ const MainScreen = () =>{
       </View>
       {/* Button area */}
       <View style={styles.container2}>
-        <ImageBackground source={bgImage} resizeMode='cover' style={styles.wallpaper}>
-          <Button></Button>
-        </ImageBackground>
+        {/* <ImageBackground source={bgImage} resizeMode='cover' style={styles.wallpaper}> */}
+          {/* <Button></Button> */}
+        {/* </ImageBackground> */}
       </View>
 
     </SafeAreaView>
