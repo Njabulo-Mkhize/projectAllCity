@@ -6,7 +6,7 @@ import MyStatusbar from '../components/MyStatusbar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-const bgImage = require("../assets/mainWallpaper.png");
+// const bgImage = require("../assets/mainWallpaper.png");
 
 
 const MainScreen = () =>{
@@ -18,12 +18,12 @@ const MainScreen = () =>{
       </View>
       {/* Map */}
       <View style= {styles.mapArea}>
-        <Text style= {{fontSize: 82, alignItems: 'center', justifyContent: 'center'}}> Map Area</Text>
+        <Text style= {{fontSize: 82, alignItems: 'center', justifyContent: 'center',color:'#0D0D40' }}> Map Area</Text>
       </View>
       {/* Button area */}
       <View style={styles.container2}>
         {/* <ImageBackground source={bgImage} resizeMode='cover' style={styles.wallpaper}> */}
-          {/* <Button></Button> */}
+          <Button title="Press here."></Button>
         {/* </ImageBackground> */}
       </View>
 
